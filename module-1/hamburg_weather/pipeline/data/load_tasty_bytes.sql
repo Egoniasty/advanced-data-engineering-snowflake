@@ -52,8 +52,6 @@ file_format = {{env}}_tasty_bytes.public.csv_ff;
 /*--
 raw zone table build
 --*/
-
-
 -- country table build
 
 -- todo: complete table build
