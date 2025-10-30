@@ -1,10 +1,8 @@
 USE ROLE accountadmin;
 
-
 /*--
 database, schema and warehouse creation
 --*/
-
 
 -- create tasty_bytes database
 CREATE OR ALTER DATABASE {{env}}_tasty_bytes;
