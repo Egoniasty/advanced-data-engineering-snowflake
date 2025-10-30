@@ -1,10 +1,8 @@
 USE ROLE accountadmin;
 
-
 /*--
 database, schema and warehouse creation
 --*/
-
 
 -- create tasty_bytes database
 CREATE OR ALTER DATABASE {{env}}_tasty_bytes;
@@ -52,8 +50,6 @@ file_format = {{env}}_tasty_bytes.public.csv_ff;
 /*--
 raw zone table build
 --*/
-
-
 -- country table build
 
 -- todo: complete table build
